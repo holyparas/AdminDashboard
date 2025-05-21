@@ -1,0 +1,159 @@
+* {
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.container {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+.search-bar {
+  width: 450px;
+  height: 30px;
+  border-radius: 30px;
+  background-color: rgb(225, 222, 222);
+  border: none;
+}
+.icon {
+  width: 30px;
+}
+.header {
+  padding-left: 30px;
+  margin-top: 3px;
+  display: grid;
+  grid-template-columns: 1fr 400px;
+  grid-template-rows: 80px 150px;
+  grid-row: 1/2;
+  grid-column: 2/3;
+  /* border-bottom: solid 1px; */
+}
+.profile-pic {
+  width: 50px;
+  background-color: #ee824a;
+  border-radius: 25px;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  padding-right: 25px;
+  gap: 20px;
+}
+
+.greetings {
+  display: flex;
+  align-items: center;
+  justify-content: baseline;
+  gap: 5px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: none;
+  margin: none;
+}
+.intro h3 {
+  padding: none;
+  margin: none;
+}
+.intro h2 {
+  padding: none;
+  margin: none;
+}
+
+.btn {
+  width: 120px;
+  border: none;
+  height: 40px;
+  background-color: rgb(89, 111, 209);
+  border-radius: 25px;
+  color: white;
+  font-weight: bold;
+  font-size: 1.15rem;
+}
+
+.functions {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 5px;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  column-gap: 20px;
+  grid-column: 2/3;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  column-gap: 10px;
+  row-gap: 10px;
+}
+
+main {
+  background-color: rgb(220, 219, 219);
+  padding-left: 30px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 15px;
+  border-left: 15px solid gold;
+  padding: 10px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.card > h3 {
+  font-weight: bold;
+}
+
+.card > h3 + p {
+  color: gray;
+}
+
+.card > p:last-child {
+  padding-top: 10px;
+  text-align: end;
+  margin-top: auto;
+  align-self: flex-end;
+  position: relative;
+  right: 2px;
+  bottom: -5px;
+}
+
+.card-icon {
+  width: 30px;
+  padding: 3px;
+}
+
+section.announcements {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.trending {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
